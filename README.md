@@ -1,6 +1,6 @@
 ## GHCN-Daily Downloader Tk -- v1.0
 
-`GHCN-Daily Downloader Tk` is a python tkinter zipapp that expedites the retrieval of GHCN (Global Historical Climatology Network)-Daily weather-station data. In addition to filtered queries, the user can request directly downloading the data. Prior to downloading, the user can also inspect information specific to the weather station, including data-ranges (relative to release of this program).
+`GHCN-Daily Downloader Tk` is a python tkinter zipapp that expedites the retrieval of GHCN (Global Historical Climatology Network)-Daily weather-station data. In addition to filtered queries, the user can request to directly downloading the data. Prior to downloading, the user can also inspect information specific to the weather station, including data-ranges (relative to release of this program).
 
 There is data available for over 118,000 weather stations (csv's in gzip format). But without assistance of a program like this, the process of getting this data is drawn-out and cumbersome. This app eliminates a lot of that frustration.
 

@@ -15,7 +15,6 @@ There is data available for over 118,000 weather stations (csv's in gzip format)
 
 1. You must have Python (`>= 3.5`) with the `tkinter` package installed.
 2. Download the following files and (preferably) place in a dedicated clean directory.
-  - This zip archive contains 2 primary and required files:
     - `ghcn-daily-downloader-tk.pyz`: This is the app. Run it like you would any other program.
 	- `GHCNDaily.db.gz`: This contains the required `sqlite3` database, which houses all needed weather station information sufficient to run queries and request downloading.
 

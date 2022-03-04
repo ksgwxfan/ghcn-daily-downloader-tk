@@ -1,4 +1,4 @@
-## GHCN-Daily Downloader Tk -- v1.01
+## GHCN-Daily Downloader Tk -- v1.0
 
 `GHCN-Daily Downloader Tk` is a python tkinter zipapp that expedites the retrieval of GHCN (Global Historical Climatology Network)-Daily weather-station data. In addition to filtered queries, the user can request to directly downloading the data. Prior to downloading, the user can also inspect information specific to the weather station, including data-ranges (relative to release of this program).
 
@@ -6,20 +6,10 @@ There is data available for over 118,000 weather stations (csv's in gzip format)
 
 ### Contents
 
-* [Changes](#changes)
 * [Requirements and Installation](#requirements-and-installation)
 * [How to Use](#how-to-use)
 * [Roadmap](#roadmap)
 * [Credits/Links](#credits)
-
-### Changes
-
-##### v1.01
-  - Resolved error that was occurring when trying to `View Station Info` for a station that did not have an associated State.
-  - State and Elevation Filters now appear on the same line.
-  - `Download` button is now visually disabled while a download attempt is in progress.
-
-[&#8679; back to Contents](#contents)
 
 ### Requirements and Installation
 
@@ -79,11 +69,11 @@ There is data available for over 118,000 weather stations (csv's in gzip format)
 [&#8679; back to Contents](#contents)
 
 ### Roadmap
-- [X] put state and elevation on same line in a frame?
-- [X] Disable download button while download is in progress
 - [ ] support downloading multiple files?
 - [ ] explicit state-only checkbutton (as there are instances of some country codes shared by state codes)?
 - [ ] keep same station selected upon dynamic resort?
+- [ ] put state and elevation on same line in a frame?
+- [ ] Disable download button while download is in progress
 
 [&#8679; back to Contents](#contents)
 
